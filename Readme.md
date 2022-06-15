@@ -6,7 +6,7 @@
 
 # WPF Dock Layout Manager - Create Closed (Hidden) Panels
 
-The following example shows how to create closed (hidden) panels. You can use the [DockLayoutManager.ClosedPanels](https://docs.devexpress.com/WPF/DevExpress.Xpf.Docking.DockLayoutManager.ClosedPanels) collection to access closed panels. In the example, the built-in Closed Panels bar is visible (its [DockLayoutManager.ClosedPanelsBarVisibility](https://docs.devexpress.com/WPF/DevExpress.Xpf.Docking.DockLayoutManager.ClosedPanelsBarVisibility) property is `Auto`).
+This example creates closed (hidden) panels. You can use the [DockLayoutManager.ClosedPanels](https://docs.devexpress.com/WPF/DevExpress.Xpf.Docking.DockLayoutManager.ClosedPanels) collection to access closed panels. In the example, the built-in Closed Panels bar is visible (its [DockLayoutManager.ClosedPanelsBarVisibility](https://docs.devexpress.com/WPF/DevExpress.Xpf.Docking.DockLayoutManager.ClosedPanelsBarVisibility) property is `Auto`).
 
 ![image](https://user-images.githubusercontent.com/12169834/173889213-56414696-a358-4a2c-8c74-540d909e167e.png)
 
