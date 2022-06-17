@@ -1,20 +1,32 @@
 <!-- default badges list -->
-![](https://img.shields.io/endpoint?url=https://codecentral.devexpress.com/api/v1/VersionRange/128643277/21.1.5%2B)
 [![](https://img.shields.io/badge/Open_in_DevExpress_Support_Center-FF7200?style=flat-square&logo=DevExpress&logoColor=white)](https://supportcenter.devexpress.com/ticket/details/E1640)
 [![](https://img.shields.io/badge/📖_How_to_use_DevExpress_Examples-e9f6fc?style=flat-square)](https://docs.devexpress.com/GeneralInformation/403183)
 <!-- default badges end -->
+
+# WPF Dock Layout Manager - Create Closed (Hidden) Panels
+
+This example creates closed (hidden) panels. You can use the [DockLayoutManager.ClosedPanels](https://docs.devexpress.com/WPF/DevExpress.Xpf.Docking.DockLayoutManager.ClosedPanels) collection to access closed panels. In the example, the built-in Closed Panels bar is visible (its [DockLayoutManager.ClosedPanelsBarVisibility](https://docs.devexpress.com/WPF/DevExpress.Xpf.Docking.DockLayoutManager.ClosedPanelsBarVisibility) property is `Auto`).
+
+![image](https://user-images.githubusercontent.com/12169834/173889213-56414696-a358-4a2c-8c74-540d909e167e.png)
+
+
 <!-- default file list -->
-*Files to look at*:
+## Files to Look At:
 
 * [Window1.xaml](./CS/CreateHiddenPanel_Ex/Window1.xaml) (VB: [Window1.xaml](./VB/CreateHiddenPanel_Ex/Window1.xaml))
-* [Window1.xaml.cs](./CS/CreateHiddenPanel_Ex/Window1.xaml.cs) (VB: [Window1.xaml](./VB/CreateHiddenPanel_Ex/Window1.xaml))
 <!-- default file list end -->
-# How to: Create Closed (Hidden) Panels
 
+## Documentation
 
-<p>The following example shows how to create closed (hidden) panels. To create closed panels, panel objects are added to the <a href="https://documentation.devexpress.com/#WPF/DevExpressXpfDockingDockLayoutManager_ClosedPanelstopic">DockLayoutManager.ClosedPanels</a> collection.</p>
-<p>In the example, the built-in Closed Panels bar is visible (the <a href="https://documentation.devexpress.com/#WPF/DevExpressXpfDockingDockLayoutManager_ClosedPanelsBarVisibilitytopic">DockLayoutManager.ClosedPanelsBarVisibility</a> property is set to Auto). It allows closed panels to be restored on the fly.</p>
+- [Dock UI Items](https://docs.devexpress.com/WPF/7209/controls-and-libraries/layout-management/dock-windows/dock-items)
+- [LayoutGroup](https://docs.devexpress.com/WPF/DevExpress.Xpf.Docking.LayoutGroup)
+- [LayoutPanel](https://docs.devexpress.com/WPF/DevExpress.Xpf.Docking.LayoutPanel)
+- [ClosedPanels](https://docs.devexpress.com/WPF/DevExpress.Xpf.Docking.DockLayoutManager.ClosedPanels)
 
-<br/>
+## More Examples
 
+- [WPF Dock Layout Manager - Create a Simple Layout of Dock Panes](https://github.com/DevExpress-Examples/how-to-create-a-simple-layout-of-dock-panes-e1600)
+- [WPF Dock Layout Manager - Create a Complex Layout of Dock Panels](https://github.com/DevExpress-Examples/how-to-create-a-complex-layout-of-dock-panels-e1663)
+- [WPF Dock Layout Manager - Сreate a DocumentGroup with Two Tabs](https://github.com/DevExpress-Examples/how-to-create-a-documentgroup-with-two-tabs-e1670)
+- [WPF Dock Layout Manager - Create Tabbed and Document Groups](https://github.com/DevExpress-Examples/how-to-create-a-tabbedgroup-and-documentgroup-groups-e1656)
 
